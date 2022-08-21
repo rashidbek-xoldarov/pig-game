@@ -32,7 +32,7 @@ diceBtn.addEventListener('click', function () {
 
 holdBtn.addEventListener('click', function () {
   scores[activePlayer] += currentScore;
-  if (scores[activePlayer] > 15) {
+  if (scores[activePlayer] >= 100) {
     console.log('sfsf');
     document
       .querySelector(`.player--${activePlayer}`)
